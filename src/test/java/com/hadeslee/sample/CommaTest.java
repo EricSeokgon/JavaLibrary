@@ -18,6 +18,7 @@ public class CommaTest {
     public void testComma() throws Exception {
         Comma comma = new Comma();
         assertEquals(184551000, comma.NonComma());
+
         assertEquals("184,551,000", comma.Comma());
     }
 

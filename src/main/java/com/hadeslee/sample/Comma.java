@@ -19,7 +19,6 @@ public class Comma {
         DecimalFormat decimalFormat = new DecimalFormat("###,###,###");
         return comma = decimalFormat.format(money);
     }
-
     public int NonComma() {
         return money;
     }
